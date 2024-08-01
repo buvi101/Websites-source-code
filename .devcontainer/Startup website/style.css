@@ -1,0 +1,254 @@
+html{
+    width: 1536px;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(blue.png);
+    background-size: cover;
+}
+
+.nav-bar{
+    height: 4.375rem;
+    background-color: #030596;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.project-palnner{
+    height: 3.75rem;   
+}
+
+.nav-intro,.nav-demo,.nav-shop,.nav-order,.nav-home{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.order-box{
+    background-color: #f7cd0f;
+    width: 8.75rem;
+    border: 0.0625rem solid #f7cd0f;
+    border-radius: 0.3125rem;
+    height: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order{
+    color: black;
+}
+
+.img-2{
+    height: 9.375rem;
+    width: 13.75rem;
+    background-color: white;
+    position: absolute;
+    left: 78.75rem;
+    top: 6.875rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH3LPCCX6ajLc9O-S_jFtzd1cyj27vVR7_yIJ9TsuXb-aKDPUXa1jMI7ONpHNY4fVzO9k&usqp=CAU);
+    background-size: cover;
+    border: 0.25rem solid white;
+}
+
+.img-1{
+    height: 18.75rem;
+    width: 23.75rem;
+    background-color: white;
+    position: absolute;
+    left: 62.5rem;
+    top: 12.5rem;
+    background-image: url(https://kidactivities.net/wp-content/uploads/2023/08/38.png);
+    background-size: cover;
+    border: 0.25rem solid white;
+}
+
+.img-3{
+    height: 8.125rem;
+    width: 12.5rem;
+    background-color: white;
+    position: absolute;
+    left: 56.25rem;
+    top: 28.125rem;
+    background-image: url(https://www.elprocus.com/wp-content/uploads/2014/10/10-14-2014-5-54-33-PM.png);
+    background-size: cover;
+    border: 0.25rem solid white;
+}
+
+.img-4,.img-5,.img-6,.img-7,.img-8,.img-9{
+    background-color: white;
+    height: 3.75rem;
+    width: 5rem;
+    display: inline-block;
+}
+
+.img-4{
+    background-image: url(https://auseparts.com.au/image/cache/data/Arduino/Arduino%20Boards%20Compat/V-700x700.jpg);
+    background-size: cover;
+}
+
+.img-5{
+    background-image: url(https://assets.skyfilabs.com/images/best_electronics_workshop_for_enigneering_students.webp);
+    background-size: cover;
+}
+
+.img-6{
+    background-image: url(https://set.jainuniversity.ac.in/academics/electronics-and-communications/images/m-electronics.jpg);
+    background-size: cover;
+}
+
+.img-7{
+    background-image: url(https://i0.wp.com/buddymantra.com/wp-content/uploads/2021/09/cropped-image-of-electronic-engineer-with-robotic-hand-fixing-motherboard-by-soldering-iron-at-table.jpg);
+    background-size: cover;
+}
+
+.img-8{
+    background-image: url(https://content.instructables.com/FXI/GA4Y/JO8Y6B38/FXIGA4YJO8Y6B38.jpg?auto=webp&fit=bounds&frame=1&height=1024&width=1024auto=webp&frame=1&height=150);
+    background-size: cover;
+}
+
+.img-9{
+    background-image: url(img-9.png);
+    background-size: cover;
+    height: 6.25rem;
+    width: 8.125rem;
+    position: absolute;
+    left: 56.25rem;
+    top: 8.125rem;
+    border: 0.1875rem solid white;
+}
+
+.img-8{
+    height: 6.25rem;
+    width: 8.125rem;
+    position: absolute;
+    left: 84.375rem;
+    top: 29.375rem;
+    border: 0.1875rem solid white;
+}
+
+.img-4{
+    position: absolute;
+    left: 69.375rem;
+    top: 7.5rem;
+    border: 0.1875rem solid white;
+}
+
+.img-5{
+    position: absolute;
+    left: 56.25rem;
+    top: 18.125rem;
+    border: 0.1875rem solid white;
+    height: 6.25rem;
+}
+
+.img-6{
+    position: absolute;
+    left: 73.75rem;
+    top: 32.8125rem;
+    border: 0.1875rem solid white;
+
+}
+
+.img-7{
+    position: absolute;
+    left: 87.5rem;
+    top: 19.375rem;
+    height: 6.25rem;
+    border: 0.1875rem solid white;
+}
+
+.create-para,.amazing-para{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.create-para{
+    color: #030596;
+    position: absolute;
+    left: 17.5rem;
+    top: 14.6875rem;
+    border-left: 0.625rem solid #030596;
+    border-top: 0.625rem solid #030596;
+    padding-left: 0.625rem;
+}
+
+.amazing-para{
+    color:#f7cd0f;
+    position: absolute;
+    left: 17.5rem;
+    top: 17.5rem;
+    border-left: 0.625rem solid #030596;
+    padding-left: 0.625rem;
+}
+
+.circle i{
+    font-size: 3.4375rem;
+    position: absolute;
+    left: 11.25rem;
+    top: 11.875rem;
+}
+
+.gear{
+    font-size: 3.75rem;
+    position: absolute;
+    left: 37.5rem;
+    top: 26.875rem;
+}
+
+.para-div2{
+    height: 1.875rem;
+    width: 18.75rem;
+    font-size: 1.5625rem;
+    position: absolute;
+    left: 17.5rem;
+    top: 23.75rem;
+    border-top: 0.125rem solid black;
+}
+
+.border-1{
+    border-bottom: 0.125rem solid transparent;
+}
+
+.border-1:hover{
+    border-bottom: 0.125rem solid white;
+}
+
+.border-2{
+    border-bottom: 0.125rem solid transparent;
+}
+
+.border-2:hover{
+    border-bottom: 0.125rem solid white;
+}
+
+.border-3{
+    border-bottom: 0.125rem solid transparent;
+}
+
+.border-3:hover{
+    border-bottom: 0.125rem solid white;
+}
+
+.border-4{
+    border-bottom: 0.125rem solid transparent;
+}
+
+.border-4:hover{
+    border-bottom: 0.125rem solid white;
+}
+
+.rectangle{
+    height: 17.5rem;
+    width: 5rem;
+    background-color: #030596;
+    position: absolute;
+    top: 15rem;
+}
